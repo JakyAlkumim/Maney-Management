@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 class quickActionButton extends StatelessWidget {
-  String label;
-  IconData icon;
-  Color color;
-  VoidCallback onTap;
+  final String label;
+  final IconData icon;
+  final Color color;
+  final VoidCallback onTap;
 
-  quickActionButton({
+  const quickActionButton({
     super.key,
     required this.label,
     required this.icon,
@@ -22,9 +22,9 @@ class quickActionButton extends StatelessWidget {
       child: Container(
         padding: EdgeInsets.symmetric(vertical: 12),
         decoration: BoxDecoration(
-          color: color.withOpacity(0.1),
+          color: color.withAlpha(30),
           borderRadius: BorderRadius.circular(15),
-          border: BoxBorder.all(color: color.withOpacity(0.2)),
+          border: BoxBorder.all(color: color.withAlpha(30)),
         ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,

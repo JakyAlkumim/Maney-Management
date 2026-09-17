@@ -1,9 +1,9 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/widgets.dart';
 
 class sectionTitle extends StatelessWidget {
-  String title;
+  final String title;
 
-  sectionTitle({super.key, required this.title});
+  const sectionTitle({super.key, required this.title});
 
   @override
   Widget build(BuildContext context) {
