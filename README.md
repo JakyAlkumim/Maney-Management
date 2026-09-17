@@ -1,10 +1,11 @@
-# maney_management_new
+# Maney Management
 
 A new Flutter project.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+تطبيق "مصروفاتنا" هو تطبيق يقوم بأدارة المحافظ والاموال
 
 A few resources to get you started if this is your first Flutter project:
 
