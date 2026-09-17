@@ -1,0 +1,21 @@
+# الحزم والمجلدات المؤقتة الخاصة بفلاتر
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# ملفات وبنية الويب وسطح المكتب المؤقتة
+.pub-cache/
+.pub/
+
+# ملفات محلية خاصة بالمطور أو نظام التشغيل (لا يجب رفعها)
+.env
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+android/
+#لإخفاء جميع ملفات قفل الحزم مثل pubspec.lock
+*.lock
